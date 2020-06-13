@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top py-4"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="img/logo.png" width="50" height="50" alt="" />
+          <h3 class="d-inline align-middle">Mizuxe</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Meet The Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">
+                Achieve whatever you dream of.
+              </h1>
+              <p class="lead">
+                A no-nonsensical guide to living a good life.
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                <i class="fas fa-arrow-right"></i> Read More
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="img/My Post.png"
+                alt=""
+                class="img-fluid d-none d-lg-block post"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="bg-dark text-white py-5 bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="col-md-4">
+            <input
+              type="email"
+              class="form-control form-control-lg mb-resp"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-lg btn-block bg-color">
+              <i class="fas fa-envelope-open-o"></i> Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOXES -->
+    <section id="boxes" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Be Better</h3>
+                <p class="text-muted">
+                  Your life doesnt get better by chance.It gets better by
+                  change.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white mb-resp">
+              <div class="card-body">
+                <h3>Be Smarter</h3>
+                <p>
+                  Succesful people are not marter than you.They just work harder
+                  than you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary mb-resp">
+              <div class="card-body">
+                <h3 class="text-primary">Be Faster</h3>
+                <p class="text-muted">
+                  Dont just sit and wait for change.Make change happen fast.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white">
+              <div class="card-body">
+                <h3>Be Stronger</h3>
+                <p>
+                  You never know how strong you are until being strong is the
+                  only choice you have.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / WHY SECTION -->
+    <section id="about" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                Why This Book?
+              </h1>
+              <p class="lead pb-3">
+                This book predominantly speaks about embracing reality and
+                accepting what is present at the moment. It'll help you realize
+                and organize your values in life. It'll help you understand what
+                is important for your life. This book tells about life in a hard
+                hitting way. After reading you might start shed tears about your
+                life but in time you'll pass through the pain and embrace
+                reality.
+              </p>
+            </div>
+
+            <!-- ACCORDION -->
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse1"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <i class="fas fa-arrow-circle-down"></i> Get Inspired
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse1" class="collapse show">
+                  <div class="card-body">
+                    The inspirational message from this book is how you have the
+                    power right now to control how you think, how you feel, and
+                    what you do. Anything you want or desire in your life, you
+                    already have the power to achieve it.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse2"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <i class="fas fa-arrow-circle-down"></i> Gain Confidence
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse2" class="collapse">
+                  <div class="card-body">
+                    The difference between success and failure often hangs on a
+                    concept that our standard education system never touches:
+                    confidence. This book walks us around the key issues that
+                    stop us from making more of our potential. We hear about the
+                    impostor syndrome, the wisdom of imagining the great in
+                    their bathrooms, and what Nietzsche and Montaigne (among
+                    others) have to tell us about resilience and courage. We
+                    often stay stuck with the level of confidence we have
+                    because we regard being confident as a matter of good luck.
+                    In fact, the opposite is true: confidence is a skill based
+                    on ideas about our place in the world, and its secrets can
+                    be learnt.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <div
+                      href="#collapse3"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                    >
+                      <i class="fas fa-arrow-circle-down"></i> Expand your
+                      conciousness
+                    </div>
+                  </h5>
+                </div>
+
+                <div id="collapse3" class="collapse">
+                  <div class="card-body">
+                    Reading this book day wont just help you to improve your
+                    life — it will enhance your life. The whole point of
+                    personal development is to expand more of what you've got,
+                    not improve what you think is lacking. When you approach
+                    each chapter as a treasure map to discover hidden knowledge,
+                    you adopt a playful, curious attitude that lets you explore
+                    this book from a grounded, expansive place.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors" class="my-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                Meet The Authors
+              </h1>
+              <p class="lead">
+                Meet our dynamic team.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/susan.png"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Susan Williams</h3>
+                <h5 class="text-muted">Lead Writer</h5>
+                <p>
+                  Lead writer with over 20 years of industry experience. Superb
+                  communications skills,supervisory skills and excellent
+                  cross-functional communicator.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/grace.png.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Grace Smith</h3>
+                <h5 class="text-muted">Co-Writer</h5>
+                <p>
+                  Fast, engaging freelance writer with 4+ years of experience.
+                  Skilled in content writing and journalism. Seeking to grow
+                  visitors and customers at Skyword.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/John Doe.png"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>John Doe</h3>
+                <h5 class="text-muted">Editor</h5>
+                <p>
+                  Editor with 5 years of experience in the publishing industry
+                  with major daily newspapers. Experience with magazine editing.
+                  A quick learner.
+                </p>
+
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="img/person4.jpg"
+                  alt=""
+                  class="img-fluid rounded-circle w-50 mb-3"
+                />
+                <h3>Pratik Vermun</h3>
+                <h5 class="text-muted">Designer</h5>
+                <p>
+                  Extremely passionate web designer, skilled in JS,HTML and CSS.
+                  Adept at creating seamless UX and UI that lean toward the
+                  functional and away from the overly artistic.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="http://instagram.com">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contact Us</h3>
+            <p class="lead"></p>
+            <form>
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Email" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <input
+                type="submit"
+                value="Submit"
+                class="btn btn-primary btn-block btn-lg"
+              />
+            </form>
+          </div>
+
+          <div class="col-lg-3 align-self-center"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 ml-auto">
+            <p class="lead">
+              Copyright &copy;
+              <span id="year"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+
+      // Init Scrollspy
+      $("body").scrollspy({ target: "#main-nav" });
+
+      // Smooth Scrolling
+      $("#main-nav a").on("click", function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
